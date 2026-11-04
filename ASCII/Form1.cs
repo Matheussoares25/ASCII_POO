@@ -24,7 +24,7 @@ namespace ASCII
                 var palavra = codigo.Converter();
 
                 ConvertidoASCII.Text = palavra;
-           
+
             }
             catch (FormatException exception)
             {
@@ -36,6 +36,11 @@ namespace ASCII
         {
             Form2 form2 = new Form2();
             form2.Show();
+        }
+
+        private void ConvertidoASCII_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

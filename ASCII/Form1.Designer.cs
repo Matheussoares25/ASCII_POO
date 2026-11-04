@@ -59,6 +59,7 @@
             ConvertidoASCII.Name = "ConvertidoASCII";
             ConvertidoASCII.Size = new Size(442, 23);
             ConvertidoASCII.TabIndex = 2;
+            ConvertidoASCII.TextChanged += ConvertidoASCII_TextChanged;
             // 
             // label2
             // 
