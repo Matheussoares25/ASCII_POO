@@ -143,6 +143,7 @@
             Controls.Add(tabControl1);
             MaximizeBox = false;
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
