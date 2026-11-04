@@ -15,4 +15,3 @@ namespace ASCII
         }
     }
 }
-//Developed by: Matheus Soares 1º ADS
