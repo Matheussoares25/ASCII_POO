@@ -4,7 +4,7 @@ ASCII
 
 Conversos ASCII desktop para Windows desenvolvida em C# com Windows Forms (.NET 10).
 
-*Sobre o projeto
+# Sobre o projeto
 
 O projeto contém um conversor ASCII, implementado na classe CodigoASCII e utilizado pela interface gráfica principal (Form1). A aplicação possui também uma segunda janela (Form2) contendo uma tabela com códigos ascii.
 
