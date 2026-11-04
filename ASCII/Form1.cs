@@ -25,6 +25,8 @@ namespace ASCII
 
                 ConvertidoASCII.Text = palavra;
 
+                MessageBox.Show(this, $"A palavra convertida é: {palavra}\n\nAs letras correspondentes aos códigos ASCII fornecidos são:\n{string.Join(", ", letras)}", "Resultado da Conversão", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             catch (FormatException exception)
             {

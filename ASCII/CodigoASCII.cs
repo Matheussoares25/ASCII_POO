@@ -9,7 +9,7 @@ namespace ASCII
 
 
         //Metodo converter
-        public (string Palavra, List<string> Letras) Converter()
+        public string Converter()
         {
             string[] partes = Codigo.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries);
             if (partes.Length == 0)
@@ -28,10 +28,9 @@ namespace ASCII
 
             string palavra = Encoding.ASCII.GetString(bytes);
 
-            List<string> letras = palavra.Select(c => c.ToString()).ToList();
 
-            //retorna a palavra convertida e a lista de letras correspondentes aos códigos ASCII fornecidos.
-            return (palavra, letras);
+            //retorna a palavra convertida.
+            return palavra;
         }
     }
 }

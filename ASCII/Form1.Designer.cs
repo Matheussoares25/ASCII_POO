@@ -142,6 +142,7 @@
             ClientSize = new Size(648, 484);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "CONVERTERASCII";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CONVERTERASCII";

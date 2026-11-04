@@ -141,6 +141,7 @@
             BackColor = Color.RoyalBlue;
             ClientSize = new Size(800, 450);
             Controls.Add(tabControl1);
+            MaximizeBox = false;
             Name = "Form2";
             Text = "Form2";
             tabControl1.ResumeLayout(false);
