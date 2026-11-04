@@ -28,6 +28,6 @@ Pré-requisitos
 Windows 10 ou superior
 
 
-  #Como usar
+# Como usar
 
 Com o arquivo "Gerador Ascii Trabalho ADS.xlsx" Escreva o texto que deseja obter o código ASCII, copie o valor da célula que apresenta os códigos ASCII e cole na ferramenta. clique em converter para Texto.
